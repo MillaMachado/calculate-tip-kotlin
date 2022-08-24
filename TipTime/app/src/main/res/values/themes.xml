@@ -8,9 +8,15 @@
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/teal_200</item>
         <item name="colorSecondaryVariant">@color/teal_700</item>
-        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorOnSecondary">@color/white</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+        <item name="textInputStyle">@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox</item>
+        <!-- Text input fields -->
+        <item name="radioButtonStyle">@style/Widget.TipTime.CompoundButton.RadioButton</item>
+        <!-- Radio buttons -->
+        <item name="switchStyle">@style/Widget.TipTime.CompoundButton.Switch</item>
+        <!-- Switches -->
     </style>
 </resources>
